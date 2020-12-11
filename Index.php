@@ -13,7 +13,7 @@ if(isset($_GET['Nomina'])){
 <title>Registro a tombola.</title>
 </head>
 <body>
-<center><p>Antes de registrar vefica que la persona cumpla con las politias para participar en el sorteo.</p></center>
+<center><p>Antes de registrar vefica que la persona cumpla con las políticas para participar en el sorteo.</p></center>
 <form>
 <center>
 <label>Nomina</label><input name="Nomina" type="nummber" /><input value="Registrar" type="submit"><br></form>
