@@ -1,0 +1,229 @@
+body{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#aebcbf+0,6e7774+50,0a0e0a+51,0a0809+100;Black+Gloss */
+
+}
+.button-start{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f3c5bd+0,e86c57+50,ea2803+51,ff6600+75,c72200+100;Red+Gloss */
+background: #f3c5bd; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #f3c5bd 0%, #e86c57 50%, #ea2803 51%, #ff6600 75%, #c72200 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #f3c5bd 0%,#e86c57 50%,#ea2803 51%,#ff6600 75%,#c72200 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #f3c5bd 0%,#e86c57 50%,#ea2803 51%,#ff6600 75%,#c72200 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', endColorstr='#c72200',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+    border: none;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	border-radius: 100%;
+	color: white;
+}
+
+.button-start:active{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f3c5bd+0,e86c57+50,ea2803+51,ff6600+75,c72200+100;Red+Gloss */
+background: #f3c5bd; /* Old browsers */
+background: -moz-linear-gradient(45deg,  #f3c5bd 0%, #e86c57 50%, #ea2803 51%, #ff6600 75%, #c72200 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  #f3c5bd 0%,#e86c57 50%,#ea2803 51%,#ff6600 75%,#c72200 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  #f3c5bd 0%,#e86c57 50%,#ea2803 51%,#ff6600 75%,#c72200 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', endColorstr='#c72200',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+    border: none;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	border-radius: 100%;
+	color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+.d{
+
+	
+}
+.wrapper {
+	float:left;
+          -webkit-perspective: 1000px;
+          perspective: 1000px;
+  -webkit-perspective-origin: 50% 50%;
+          perspective-origin: 50% 50%;
+}
+.tombola {
+  position: relative;
+  width: 266px;
+  height: 200px;
+  margin: 160px auto;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transform-origin: center center -480px;
+          transform-origin: center center -480px;
+  -webkit-transform: rotateX(0deg) translateZ(-480px);
+          transform: rotateX(0deg) translateZ(-480px);
+  transition: 4s ease all;
+}
+.tombola1 {
+  position: relative;
+  width: 266px;
+  height: 200px;
+  margin: 160px auto;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transform-origin: center center -480px;
+          transform-origin: center center -480px;
+  -webkit-transform: rotateX(0deg) translateZ(-480px);
+          transform: rotateX(0deg) translateZ(-480px);
+  transition: 4s ease all;
+}
+.tombola2 {
+  position: relative;
+  width: 266px;
+  height: 200px;
+  margin: 160px auto;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transform-origin: center center -480px;
+          transform-origin: center center -480px;
+  -webkit-transform: rotateX(0deg) translateZ(-480px);
+          transform: rotateX(0deg) translateZ(-480px);
+  transition: 4s ease all;
+}
+.tombola3 {
+  position: relative;
+  width: 266px;
+  height: 200px;
+  margin: 160px auto;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transform-origin: center center -480px;
+          transform-origin: center center -480px;
+  -webkit-transform: rotateX(0deg) translateZ(-480px);
+          transform: rotateX(0deg) translateZ(-480px);
+  transition: 4s ease all;
+}
+.tombola4 {
+  position: relative;
+  width: 266px;
+  height: 200px;
+  margin: 160px auto;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transform-origin: center center -480px;
+          transform-origin: center center -480px;
+  -webkit-transform: rotateX(0deg) translateZ(-480px);
+          transform: rotateX(0deg) translateZ(-480px);
+  transition: 4s ease all;
+}
+.panel {
+  top: 0px;
+  padding: 60px;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: absolute;
+  width: 266px;
+  height: 200px;
+  color: white;
+  text-align: center;
+  line-height: 2em;
+  background: #94DBAF;
+  border: 1px solid #297a48;
+}
+.p1 {
+  -webkit-transform: translateZ(240px);
+          transform: translateZ(240px);
+  background: #94DBAF;
+  border: 1px solid #297a48;
+}
+.p2 {
+  -webkit-transform: rotateX(-45deg) translateZ(240px);
+          transform: rotateX(-45deg) translateZ(240px);
+  background: #94d2db;
+  border: 1px solid #296f7a;
+}
+.p3 {
+  -webkit-transform: rotateX(-90deg) translateZ(240px);
+          transform: rotateX(-90deg) translateZ(240px);
+  background: #949cdb;
+  border: 1px solid #29337a;
+}
+.p4 {
+  -webkit-transform: rotateX(-135deg) translateZ(240px);
+          transform: rotateX(-135deg) translateZ(240px);
+  background: #c194db;
+  border: 1px solid #5c297a;
+}
+.p5 {
+  -webkit-transform: rotateX(-180deg) translateZ(240px);
+          transform: rotateX(-180deg) translateZ(240px);
+  background: #db94c0;
+  border: 1px solid #7a295b;
+}
+.p6 {
+  -webkit-transform: rotateX(-225deg) translateZ(240px);
+          transform: rotateX(-225deg) translateZ(240px);
+  background: #db9d94;
+  border: 1px solid #7a3429;
+}
+.p7 {
+  -webkit-transform: rotateX(-270deg) translateZ(240px);
+          transform: rotateX(-270deg) translateZ(240px);
+  background: #dbd294;
+  border: 1px solid #7a7029;
+}
+.p8 {
+  -webkit-transform: rotateX(45deg) translateZ(240px);
+          transform: rotateX(45deg) translateZ(240px);
+  background: #aedb94;
+  border: 1px solid #477a29;
+}
+
+/*modal*/
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.audio{
+display: none
+}
