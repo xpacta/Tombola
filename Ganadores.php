@@ -25,10 +25,10 @@
         <a class="nav-link" type="button" onclick="exportToExcel()" id="btnexportar" ><img src="iconex.png" width="30px" height="30px">Exportar</img></a>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search"  id="filtro" placeholder="Buscar" aria-label="Search">
+    <div class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search"  id="filtro" placeholder="Buscar" onKeyUP='buscar()' aria-label="Search">
       <button class="btn btn-outline-success my-2 my-sm-0" onclick="buscar()" type="button">Buscar</button>
-    </form>
+    </div>
   </div>
 </nav>
 <div class = "container" style="margin-top:80px">
@@ -87,6 +87,7 @@ function buscar(){
       }
     });
     if(valido===0)alert("No encontrado");
+    document.getElementById("filtro").focus();
 }
 CargarDatos();
 setInterval('CargarDatos()',10000);
