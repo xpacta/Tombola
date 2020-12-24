@@ -45,7 +45,7 @@ function GuardarGanador($Concursante, $Premio){
 	include("Conexion.php");
 	$resp = false;
 	$afectedRows = 0;
-	MySQLi_query($Conexion, "UPDATE `concursantes` SET `Ganador`= 1 WHERE `Id`= ".$Concursante['Id'])or die("error asegurando ganador");
+	MySQLi_query($Conexion, "UPDATE `concursantes` SET `Ganador`= 1, `Time`=NOW()  WHERE `Id`= ".$Concursante['Id'])or die("error asegurando ganador");
 	$afectedRows += MySQLi_Affected_Rows($Conexion);
 	MySQLi_query($Conexion, "Update regalos set Ganador = " . $Concursante['Nomina'] . " where Id = " . $Premio['Id'])or die("error asegurando el premio");
 	$afectedRows += MySQLi_Affected_Rows($Conexion);

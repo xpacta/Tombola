@@ -107,7 +107,7 @@ $NumeroDeRegalos = mysqli_num_rows($consulta);
                     function rotar() {
                         document.getElementById("button-start").style = "display:none";
                         var Gano = 0;
-                        audioRuleta.play();
+                       // audioRuleta.play();
                         var rotation = [1440, 1485, 1530, 1575, 1620, 1665, 1710, 1755];
                         var pick = Math.floor(Math.random() * 8);
                         var pick1 = pick;

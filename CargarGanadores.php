@@ -2,7 +2,7 @@
 include("Conexion.php");
 header('Content-Type: application/json');
 $Response = array();
-$consulta = mysqli_query($Conexion, "select * from concursantes as c INNER JOIN regalos as r on r.Ganador = c.Nomina order by r.Id") OR die("Error en el Querry Ganadores.php");
+$consulta = mysqli_query($Conexion, "select * from concursantes as c INNER JOIN regalos as r on r.Ganador = c.Nomina order by Time ASC") OR die("Error en el Querry Ganadores.php");
 $contador = 0;
 while($datos = mysqli_fetch_array($consulta)){
 $contador++;

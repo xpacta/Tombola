@@ -41,8 +41,7 @@
       
     <th>Nomina</th>
 
-    <th>Nombre</th>
-
+   <!-- <th>Nombre</th> -->
     <th>Premio</th>
 
   </tr>
@@ -114,6 +113,7 @@ function CargarDatos(){
 					console.log("Carga por primera vez");
 					array = resp;
 					for(var i = 0; i <= resp.length; i++ ){
+            ///"+ resp[i].Nombre +"</td><td>
 					document.getElementById("insertData").innerHTML += "<tr><td>"+ resp[i].Numero +"</td><td>"+ resp[i].Nomina +"</td><td>"+ resp[i].Nombre +"</td><td>"+ resp[i].Premio +"</td></tr>";
 					}
 				}else{
@@ -146,7 +146,8 @@ function CargarDatos(){
 									}
 								}
 						array = tempArray;
-						document.getElementById("insertData").innerHTML += "<tr><th>"+ (CargadosActualmente + 1) +"</th><th>"+ extractArray[0].Nomina +"</th><th>"+ extractArray[0].Nombre +"</th><th>"+ extractArray[0].Premio +"</th></tr>";
+            //"+ extractArray[0].Nombre +" <th></th>
+						document.getElementById("insertData").innerHTML += "<tr><th>"+ (CargadosActualmente + 1) +"</th><th>"+ extractArray[0].Nomina + "</th><th>"+  extractArray[0].Nombre + "</th><th>" + extractArray[0].Premio +"</th></tr>";
 					}
 				}
             }
